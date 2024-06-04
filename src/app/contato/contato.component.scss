@@ -4,27 +4,38 @@
   background-color: #EA916B;
   border-radius: 10px;
   filter: drop-shadow(0px 10px 10px rgba(0,0,0,0.16 ));
+  margin-top: 29px;
 }
 
 .form{
   margin-left: 40px;
   margin-right: 40px;
   margin-top: 40px;
+  height: 263px;
 }
 
 .input{
   border-radius: 5px;
-  width: 281px;
+  width: 292px;
   height: 46px;
   border: none;
+  font-family: "montserrat";
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-top: 16px;
+  padding-bottom: 14px;
 }
 
 .textarea{
-  width: 590px;
+  width: 600px;
   height: 200px;
   border-radius: 5px;
   margin-top: 16px;
-  border: none
+  border: none;
+  font-family: "montserrat";
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-top: 16px;
 }
 
 .botao-enviar{
@@ -36,12 +47,13 @@
   border: none;
   font-family: "montserrat";
   color: #fff;
-  font-size: 12px
+  font-size: 12px;
+  cursor: pointer;
 }
 
 .div-enviar{
   width: 100%;
   display: grid;
   justify-content: center;
-  margin-top: 22px
+  margin-top: 22px;
 }
