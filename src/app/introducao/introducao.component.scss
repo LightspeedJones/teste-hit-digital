@@ -1,0 +1,33 @@
+.text-box{
+  width: 780px;
+  height: 435px;
+  background-color: #EA916B;
+  border-radius: 10px;
+  filter: drop-shadow(0px 10px 10px rgba(0,0,0,0.16 ));
+}
+
+.container{
+  margin: 80px;
+  display: grid;
+  justify-content: center;
+}
+
+.text-container{
+  margin: 40px
+}
+
+.introducao-title{
+  margin: auto; 
+  padding-bottom: 29px;
+  color: #ffff;
+  font-family: "montserrat";
+  font-size: x-large;
+  font-weight: 400;
+}
+
+.text-container p{
+  color: #ffff;
+  font-family: "montserrat";
+  font-weight: 100;
+  text-align: justify;
+}
