@@ -1,5 +1,4 @@
 import { NgModule } from "@angular/core";
-import { HeaderComponent } from "./header/header.component";
 import { IntroducaoComponent } from "./introducao/introducao.component";
 import { AppComponent } from "./app.component";
 import { RouterOutlet } from "@angular/router";
@@ -10,7 +9,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
     IntroducaoComponent,
     ContatoComponent
   ],
